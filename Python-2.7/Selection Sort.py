@@ -4,7 +4,7 @@ def SelectionSort(A):
         for j in range(i+1, len(A)):
             if A[j] < A[imin]:
                 imin = j
-		if A[i] != imin:
+        if A[i] != imin:
             hold = A[i]
             A[i] = A[imin]
             A[imin] = hold
